@@ -6,12 +6,12 @@
 * 15 custom classes used
 
 ## Main idea
-* Use features from the corresponding encoder stage in decoder [skip connection] by concatenating them. 
+* Use features from the corresponding encoder stage in decoder [skip connection] by concatenating them.
 
 ## Intructions to run
-> To run training use - **python3 u\_net\_train.py -h**
+> To run training use - **python3 u\_net\_train.py --help**
 >
-> To run inference use - **python3 u\_net\_infer.py -h**
+> To run inference use - **python3 u\_net\_infer.py --help**
 >
 > This lists all possible commandline arguments
 
@@ -23,8 +23,3 @@
 * [UNet](https://arxiv.org/pdf/1505.04597)
 * [UNet Project](https://lmb.informatik.uni-freiburg.de/people/ronneber/u-net/)
 * [Cityscapes Dataset](https://www.cityscapes-dataset.com/)
-
-## To do
-- [x] UNet
-- [x] Visualize results
-- [ ] Compute metrics on validation set
