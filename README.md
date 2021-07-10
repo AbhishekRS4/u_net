@@ -9,11 +9,14 @@
 * Use features from the corresponding encoder stage in decoder [skip connection] by concatenating them.
 
 ## Intructions to run
-> To run training use - **python3 u\_net\_train.py --help**
->
-> To run inference use - **python3 u\_net\_infer.py --help**
->
-> This lists all possible commandline arguments
+* To run training use
+```
+python3 src/u_net_train.py --help
+```
+* To run inference use
+```
+python3 src/u_net_infer.py --help
+```
 
 ## Visualization of results
 * [UNet](https://youtu.be/s6FitFbnxXQ)
